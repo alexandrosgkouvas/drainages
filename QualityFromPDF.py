@@ -2,9 +2,6 @@ import re
 import requests
 import pandas as pd
 from PyPDF2 import PdfReader  
-
-from PyPDF2 import PdfReader
-
 reader = PdfReader("EPS_2024_EXHIBITOR_LIST.pdf")
 if reader.is_encrypted:
     print("The PDF is encrypted.")
