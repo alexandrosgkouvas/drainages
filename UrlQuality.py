@@ -50,7 +50,7 @@ main_url = "https://drainageshow.com/exhibiting/exhibitors/"
 driver.get(main_url)
 
 # Wait for the page to load fully
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, 'h5')))  # Wait for <h5> tags
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, 'h5')))  #
 
 # 2. Scroll down the page to load content
 scroll_pause_time = 3  # Time to wait after each scroll (increased)

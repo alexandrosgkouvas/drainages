@@ -1,7 +1,7 @@
 import re
 import requests
 import pandas as pd
-from PyPDF2 import PdfReader  # Install using pip install PyPDF2
+from PyPDF2 import PdfReader  
 
 from PyPDF2 import PdfReader
 
@@ -86,7 +86,7 @@ def validate_urls_in_pdf(pdf_path, output_file):
 
 
 # Specify the input PDF and output Excel file
-pdf_path = "EPS_2024_EXHIBITOR_LIST.pdf"  # Replace with your PDF file name (if in the same directory)
+pdf_path = "EPS_2024_EXHIBITOR_LIST.pdf"  
 output_file = "pdf_url_quality.xlsx"
 
 validate_urls_in_pdf(pdf_path, output_file)
